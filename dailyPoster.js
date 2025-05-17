@@ -29,3 +29,4 @@ const message = `**${product.title}**\n\nCheck it out on Amazon:\n${affiliateLin
 bot.sendMessage(chatId, message, { parse_mode: "Markdown" })
   .then(() => console.log("Product sent!"))
   .catch(console.error);
+add daily script command
