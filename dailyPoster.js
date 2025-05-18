@@ -22,7 +22,7 @@ const products = [
   }
 ];
 
-const product = products[Math.floor(Math.random() * products.length)];
+if (products.length === 0) throw new Error("No products available");
 const affiliateLink = `${product.link}?tag=${amazonTag}`;
 const message = `**${product.title}**\n\nCheck it out on Amazon:\n${affiliateLink}`;
 
