@@ -31,3 +31,6 @@
   },
   "homepage": "https://github.com/sheiko00/telegram-bot-amazon#readme"
 }
+git add package.json
+git commit -m "Fix package.json formatting"
+git push origin main
