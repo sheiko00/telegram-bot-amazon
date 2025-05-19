@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 require('dotenv').config();
 
-const token = process.env.TelegramTelegram_BOT_Token  || '7743266180:AAG2zMxvGwjTNfbLdNbSQPrOXnKhbgmnHEk;
+const token = process.env.TelegramTelegram_BOT_Token  || '7743266180:AAFiUgLT7X58omTiFOOoVPQQAthsiD_BYX8;
 const chatId = process.env.CHAT_Id  || '@goodbuy_amazon;
 const amazonTag = process.env.AMAZON_TAG || 'sheiko0-20';
 
